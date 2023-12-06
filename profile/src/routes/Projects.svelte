@@ -1,4 +1,6 @@
-<script lang ="ts">
+
+
+  <script lang ="ts">
 	let projects = [
 		{
 			title: 'project1',
@@ -36,7 +38,8 @@ function handleChangee(e){
 </select>    
 
 <h2 > <strong>=:{projects[index].description}</strong></h2>
-<a href="{projects[index].link}"> click me!</a>
+
+
 
 <style>
 
